@@ -9,3 +9,9 @@ CREATE TABLE fatalities (
 	nr_civils INT,
 	state_name VARCHAR (30),
 	state_code VARCHAR (2));
+
+CREATE TABLE population (
+	year INT,
+	population INT,
+	state_name VARCHAR (30),
+	state_code VARCHAR (2));
