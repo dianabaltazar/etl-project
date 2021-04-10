@@ -2,11 +2,11 @@
 
 ETL Project
 The purpose of the project was to create a database that contains information on crime in the United States, specifically a table that contains statistics on police officers who have been killed, another on civilian victims who have been killed by police officers, and a third table containing the population. The tables contain information by state and by year from 2000 to 2016.
-For the development of the project, the work team selected data.world and www2.census.gov as the source of the datasets.
+For the development of the project, the work team selected data.world and www.census.gov as the source of the datasets.
 
 Extraction:
 From data.world, the files all_data.csv and Police_Fatalities.csv were extracted with information on police officers killed in the line of duty and civilians killed by police officers, respectively.
-Two csv files were extracted from www2.censu.gov with information on the population of the United States, one of them from 2000 to 2009 and the other from 2010 to 2020.
+Two csv files were extracted from www.censu.gov with information on the population of the United States, one of them from 2000 to 2009 and the other from 2010 to 2020.
 
 Transformation:
 For the transformation of the tables it was necessary:
